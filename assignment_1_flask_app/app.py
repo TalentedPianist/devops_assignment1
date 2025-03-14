@@ -65,4 +65,5 @@ def index():
     return render_template('index.html', result=result)
 
 if __name__ == '__main__':
+    # Run app on port 80 with debugging enabled
     app.run(port=80, debug=True)
